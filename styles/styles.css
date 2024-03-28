@@ -17,12 +17,13 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 2em;
+  padding-block: 1.2em;
   padding-inline: 6em;
   position: fixed;
   right: 0;
   top: 0;
   left: 0;
+  background-color: white;
 }
 .navigation .items {
   display: flex;
@@ -47,10 +48,11 @@ html {
 }
 
 .collections {
-  margin-top: 9em;
+  margin-top: 8em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
 }
 .collections .trending {
   display: flex;
@@ -77,4 +79,23 @@ html {
 
 .container {
   padding-inline: 6em;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products h1 {
+  font-weight: 400;
+  font-size: 3em;
+}
+.products p {
+  width: 35%;
+  text-align: center;
+  margin-block-start: 1.5em;
+}
+.products .trending {
+  color: #03A59B;
 }/*# sourceMappingURL=styles.css.map */
