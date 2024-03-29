@@ -47,6 +47,12 @@ html {
   text-decoration: none;
 }
 
+.scrolling-effect {
+  box-shadow: 2px 12px 17px 0px rgba(72, 72, 72, 0.75);
+  -webkit-box-shadow: 2px 12px 17px 0px rgba(72, 72, 72, 0.75);
+  -moz-box-shadow: 2px 12px 17px 0px rgba(72, 72, 72, 0.75);
+}
+
 .collections {
   margin-top: 8em;
   display: flex;
